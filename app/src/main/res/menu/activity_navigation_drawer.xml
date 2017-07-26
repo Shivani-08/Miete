@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/arrow"/>
+        <item
+            android:id="@+id/western"
+            android:title="Western Wear"
+            android:icon="@drawable/arrow"/>
+        <item
+            android:id="@+id/ethnic"
+            android:title="Ethnic Wear"
+            android:icon="@drawable/arrow"/>
+        <item
+            android:id="@+id/foot"
+            android:title="Foot Wear"
+            android:icon="@drawable/arrow"/>
+        <item
+            android:id="@+id/sports"
+            android:title="Sports Wear"
+            android:icon="@drawable/arrow"/>
+    </group>
+
+    <item android:title="General">
+        <menu>
+            <item
+                android:id="@+id/yourprofile"
+                android:title="Your Profile"
+                android:icon="@drawable/arrow"/>
+            <item
+                android:id="@+id/yourorders"
+                android:title="Your Orders"
+                android:icon="@drawable/arrow"/>
+            <item
+                android:id="@+id/login"
+                android:title="Login"
+                android:icon="@drawable/arrow"/>
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"
+                android:icon="@drawable/arrow"/>
+            <item
+                android:id="@+id/feedback"
+                android:title="Feedback"
+                android:icon="@drawable/arrow"/>
+        </menu>
+    </item>
+
+
+</menu>

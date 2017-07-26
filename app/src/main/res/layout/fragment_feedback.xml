@@ -1,0 +1,120 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="16dp">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+                
+                
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/logo5"
+                    app:civ_border_width="2dp"
+                    android:layout_gravity="center"
+                    />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:text="Enter Feedback Details"
+            android:textSize="30dp"
+            android:textColor="@color/colorPrimary"
+            >
+        </TextView>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/textViewPhoneNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To : "
+            android:textColor="@color/colorAccent"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+               android:layout_weight="1"
+            android:id="@+id/editTextTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+
+            android:inputType="textEmailAddress" >
+
+            <requestFocus />
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/textViewSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subject : "
+            android:layout_weight="1"
+            android:textColor="@color/colorAccent"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editTextSubject"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </EditText>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/textViewMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message : "
+            android:textColor="@color/colorAccent"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:inputType="textMultiLine"
+            android:lines="5" />
+              <Space
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"/>
+        <Button
+            android:id="@+id/buttonSe"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:textColor="@color/colorPrimary"
+            />
+    </LinearLayout>
+</ScrollView>

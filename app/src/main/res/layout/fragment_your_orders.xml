@@ -1,0 +1,22 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.shivani.miete.CategoryFragment"
+    android:weightSum="1">
+
+    <ListView
+        android:numColumns="2"
+        android:gravity="center"
+        android:columnWidth="100dp"
+        android:stretchMode="columnWidth"
+        android:layout_width="fill_parent"
+        android:layout_height="476dp"
+        android:id="@+id/List_view"
+        android:layout_weight="0.68" />
+
+</LinearLayout>
+

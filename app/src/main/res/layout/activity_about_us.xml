@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@drawable/bgrd"
+    tools:context="com.example.shivani.miete.AboutUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo5"
+            app:civ_border_width="2dp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/aboutUsHead"
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="45dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="@string/about_us_para"
+            android:id="@+id/textView2" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disclaimer"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:id="@+id/disclaimer_id"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/disclaimer_para"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developers"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:id="@+id/developers_id"/>
+        <TextView
+            android:id="@+id/shivani"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shivani Mulay"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:textStyle="italic"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/sakshi"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sakshi Kale"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_gravity="center"/>
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/ravi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ravi Joshi"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>
